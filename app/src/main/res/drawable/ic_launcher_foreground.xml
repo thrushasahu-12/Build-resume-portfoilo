@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing accent circle / base plate -->
+    <path
+        android:fillColor="#1538BDF8"
+        android:pathData="M54,54m-34,0a34,34 0,1 1,68 0a34,34 0,1 1,-68 0" />
+
+    <!-- Connecting network lines -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M35,62 L47,48 L61,54 L73,36" />
+
+    <!-- Ascending Analytics Bars -->
+    <!-- Bar 1 (Height 16) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M31,64 h8 v14 h-8 z" />
+
+    <!-- Bar 2 (Height 26) -->
+    <path
+        android:fillColor="#0EA5E9"
+        android:pathData="M43,54 h8 v24 h-8 z" />
+
+    <!-- Bar 3 (Height 22) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M55,58 h8 v20 h-8 z" />
+
+    <!-- Bar 4 (Height 38) Peak Growth -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M67,42 h8 v36 h-8 z" />
+
+    <!-- Data Network Nodes on top of trendline -->
+    <!-- Node 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,62m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+
+    <!-- Node 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,48m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+
+    <!-- Node 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61,54m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+
+    <!-- Node 4 (Peak Spark) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73,36m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M73,36m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+</vector>
